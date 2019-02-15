@@ -47,6 +47,6 @@ public class CheapestTripFinderTest {
     public void shouldReturnCheapestThreeFromPayload(){}
 
     @Test
-
+    public void shouldHandleExceptionFromRestClinet(){}
 
 }

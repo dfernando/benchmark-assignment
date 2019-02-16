@@ -18,29 +18,29 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class Price {
 
     @JsonProperty("total")
-    private String total;
+    private Double total;
     @JsonProperty("totalTaxes")
-    private String totalTaxes;
+    private Double totalTaxes;
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     @JsonProperty("total")
-    public String getTotal() {
+    public Double getTotal() {
         return total;
     }
 
     @JsonProperty("total")
-    public void setTotal(String total) {
+    public void setTotal(Double total) {
         this.total = total;
     }
 
     @JsonProperty("totalTaxes")
-    public String getTotalTaxes() {
+    public Double getTotalTaxes() {
         return totalTaxes;
     }
 
     @JsonProperty("totalTaxes")
-    public void setTotalTaxes(String totalTaxes) {
+    public void setTotalTaxes(Double totalTaxes) {
         this.totalTaxes = totalTaxes;
     }
 
